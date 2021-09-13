@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Coffee Shop Map</title>
+
+<!--set the styles-->
+<style>
+body {font-family:calibri;background-color: DarkSlateGrey;text-align:center;margin:0px;}
+h1   {font-size:28px;color:white;}
+h2   {font-size:23px;color:powderblue;}
+p    {font-size:16px;color:white;}
+button {font-size:16px;color:black;background-color:goldenrod;border:4px solid black;}
+.map {width:35%;height:425px;border:2px solid red;}
+.detail {width:65%;height:425px;text-align:left;padding-left:40px;padding-right:40px;}
+</style>
+</head>
+
+
+<body>
+
+<!--Set the headings for the first map page-->
+<h1>Montmorency - closest coffee shop to home address</h1>
+<h2>Network Analysis</h2>
+
+<!--Divide into two columns-->
+<div style="display:flex">
+<div class="map">
+<!--Load map1 image-->
+<img src="Map3.jpg" style="width:100%;height:425px;">
+</div>
+<div class="detail">
+<!--Brief information about map1 content-->
+<br><br><br><br>
+<p><b>This map uses network analysis to determine which is the closest coffee shop to Montmorency residents, based on their home address.
+<br>
+<br>Nine coffee shops were located on the map and resident addresses linked to the closest one.
+<br>
+<br>ArcMap was used for data manipulation and map layout.</b></p>
+</div>
+</div>
+
+<div>
+<!--Links to Home page and Maps-->
+<br>
+<button onclick="document.location='index.htm'"><b>Home</b></button>
+<button onclick="document.location='FirstMap.htm'"><b>Map 1</b></button>
+<button onclick="document.location='SecondMap.htm'"><b>Map 2</b></button>
+<button onclick="document.location='FourthMap.htm'"><b>Map 4</b></button>
+</div>
+
+</body>
+</html>
